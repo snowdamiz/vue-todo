@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon server.js --ignore 'client/'",
-    "client": "npm run server --prefix client",
-    "dev": "concurrently \"npm run client\" \"npm run server\" set NODE_ENV=dev"
+    "client": "npm run serve --prefix client",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
   },
   "repository": {
     "type": "git",
